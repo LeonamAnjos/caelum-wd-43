@@ -4,7 +4,7 @@ body {
 
 	margin-left: auto;
     margin-right: auto;
-    width: 680px;	
+    width: 1024px;	
 }
 
 .titulo {
@@ -58,4 +58,46 @@ figcaption {
 #familia-pelho {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+
+	display: block;
+	text-indent: -9999px; 
+}
+
+.social a[href*="facebook"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter"] {
+	background-image: url(../img/twitter.png);
+}
+
+.social a[href*="google.com"] {
+	background-image: url(../img/googleplus.png);
+}
+
+
+footer {
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
 }
